@@ -23,6 +23,9 @@ npm run dev
 
 ```
 
+## Project Structure
+
+```
 
 src/
 │
@@ -37,3 +40,5 @@ src/
 │
 ├── components/
 │   └── ECGDisplay.tsx          # (Optional) SVG wrapper component
+
+```
