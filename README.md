@@ -39,6 +39,10 @@ src/
 │   └── index.ts                # TypeScript interfaces & types
 │
 ├── components/
-│   └── ECGDisplay.tsx          # (Optional) SVG wrapper component
+│   └── ECGControls.tsx
+│   └── ECGAnimator.tsx
+│   └── CustomBeatRow.tsx
+│   └── ECGSVG.tsx
+
 
 ```
