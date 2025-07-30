@@ -1,0 +1,154 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.ecg-animator-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.ecg-main-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.ecg-controls {
+  flex: 0 0 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  max-height: 95vh;
+}
+
+.basic-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.control-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.control-group-pr {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.control-group-beat-sequence {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.addCustomBeatBtn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.removeBeatBtn {
+  margin-top:5px;
+  background:#e74c3c;
+  color:white;
+  border:none;
+  padding:4px 8px;
+  cursor:pointer;
+}
+
+.control-input {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.param-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.param-group label {
+  width: 180px;
+  font-size: 14px;
+  color: #555;
+}
+
+.param-group input[type="number"] {
+  width: 80px;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.param-group input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.custom-beat-row {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+}
+
+.canvas-container {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
