@@ -23,3 +23,17 @@ npm run dev
 
 ```
 
+
+rc/
+│
+├── hooks/
+│   └── useECGAnimation.ts      # Custom hook for animating waveform
+│
+├── utils/
+│   └── ecgMath.ts              # Waveform generation math functions
+│
+├── types/
+│   └── index.ts                # TypeScript interfaces & types
+│
+├── components/
+│   └── ECGDisplay.tsx          # (Optional) SVG wrapper component
