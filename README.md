@@ -24,7 +24,7 @@ npm run dev
 ```
 
 
-rc/
+src/
 │
 ├── hooks/
 │   └── useECGAnimation.ts      # Custom hook for animating waveform
